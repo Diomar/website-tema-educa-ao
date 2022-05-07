@@ -241,7 +241,7 @@ header {
 /*==================== CURSOS SECTION ======================*/
 
 .cursos {
-    margin-top: 10rem;
+    margin-top: 15rem;
 }
 
 .cursos__container {
@@ -270,3 +270,5 @@ header {
     margin: 1.2rem 0 2rem;
     font-size: 0.9rem;
 }
+
+
