@@ -28,13 +28,11 @@
     --trasintion: all 400ms ease;
 }
 
-
 body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.7;
     color: var(--color-white);
     background: var(--color-bg);
-
 }
 
 .container {
@@ -51,10 +49,10 @@ section h2 {
     margin-bottom: 4rem;
 }
 
-h1, 
-h2, 
-h3, 
-h4, 
+h1,
+h2,
+h3,
+h4,
 h5 {
     line-height: 1.2;
 }
@@ -97,8 +95,6 @@ img {
     color: var(--color-white)
 }
 
-
-
 /* ================= NAV BAR ==================== */
 
 nav {
@@ -109,7 +105,6 @@ nav {
     top: 0;
     z-index: 11;
 }
-
 
 /*====== muda o estilo de navegação usando js ========*/
 .window-scroll {
@@ -179,7 +174,7 @@ header {
 
 .categoria__container {
     display: grid;
-    grid-template-columns:  40% 60%;
+    grid-template-columns: 40% 60%;
 }
 
 .categoria__left {
@@ -263,7 +258,7 @@ header {
 }
 
 .curso__info {
-    padding: 2rem;    
+    padding: 2rem;
 }
 
 .curso__info p {
@@ -271,4 +266,44 @@ header {
     font-size: 0.9rem;
 }
 
+/* ======== FAQS =========== */
 
+.faqs {
+    background: var(--color-bg1);
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.3);
+}
+
+.faqs__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.faq {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    height: fit-content;
+    background: var(--color-primary);
+    cursor: pointer;
+}
+
+.faq h4 {
+    font-size: 1rem;
+    line-height: 2.2;
+}
+
+.faq__icon {
+    align-self: flex-start;
+    font-size: 1.2rem;
+}
+
+.faq p {
+    margin-top: 0.8rem;
+    display: none;
+}
+
+.faq.open p {
+    display: block;
+} 
