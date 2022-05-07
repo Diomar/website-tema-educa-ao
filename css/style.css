@@ -237,3 +237,36 @@ header {
 .categoria p {
     font-size: 0.85rem;
 }
+
+/*==================== CURSOS SECTION ======================*/
+
+.cursos {
+    margin-top: 10rem;
+}
+
+.cursos__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.curso {
+    background: var(--color-bg1);
+    text-align: center;
+    border: 1px solid transparent;
+}
+
+.curso:hover {
+    border: 1px solid transparent;
+    background: var(--color-primary);
+    transition: var(--trasintion);
+}
+
+.curso__info {
+    padding: 2rem;    
+}
+
+.curso__info p {
+    margin: 1.2rem 0 2rem;
+    font-size: 0.9rem;
+}
