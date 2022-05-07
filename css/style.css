@@ -97,6 +97,8 @@ img {
     color: var(--color-white)
 }
 
+
+
 /* ================= NAV BAR ==================== */
 
 nav {
@@ -107,6 +109,15 @@ nav {
     top: 0;
     z-index: 11;
 }
+
+
+/*====== muda o estilo de navegação usando js ========*/
+.window-scroll {
+    background: var(--color-primary);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+/* ============fim muda estilo navbar =================*/
 
 .nav__container {
     height: 100%;
