@@ -21,12 +21,11 @@ faqs.forEach(faq => {
         } else {
             icon.className = 'uil uil-plus';
         }
-
     })
 })
 
 
-// Mostrar/ Esconder MENU DROP DOW
+// Mostrar/ Esconder MENU DROPDOWN
 const menu = document.querySelector('.nav__menu');
 const menuBtn = document.querySelector('#open-menu-btn');
 const closeBtn = document.querySelector('#close-menu-btn');
@@ -44,4 +43,4 @@ const closeNav = () => {
     menuBtn.style.display = "inline-block"
 }
 
-closeBtn.addEventListener('click', closeNav );
+closeBtn.addEventListener('click', closeNav);
