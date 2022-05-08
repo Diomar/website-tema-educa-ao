@@ -106,13 +106,13 @@ nav {
     z-index: 11;
 }
 
-/*====== muda o estilo de navegação usando js ========*/
+/* ==== muda o estilo de navegação usando js ====== */
 .window-scroll {
     background: var(--color-primary);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
-/* ============fim muda estilo navbar =================*/
+/* ========== fim muda estilo navbar ============= */
 
 .nav__container {
     height: 100%;
@@ -140,7 +140,7 @@ nav button {
     color: var(--color-bg2)
 }
 
-/* ================= HEADER ==================== */
+/* ================= HEADER ================== */
 
 header {
     position: relative;
@@ -161,7 +161,7 @@ header {
     margin: 1rem 0 2.4rem;
 }
 
-/* ================= CATEGORIA SECTION ==================== */
+/* ============  SECTION CATEGORIA  ============= */
 .categoria {
     background: var(--color-bg1);
     height: 29rem;
@@ -233,7 +233,7 @@ header {
     font-size: 0.85rem;
 }
 
-/*==================== CURSOS SECTION ======================*/
+/*============= SECTION CURSOS ===============*/
 
 .cursos {
     margin-top: 15rem;
@@ -266,7 +266,7 @@ header {
     font-size: 0.9rem;
 }
 
-/* ======== FAQS =========== */
+/* =============== SECTION FAQS ============== */
 
 .faqs {
     background: var(--color-bg1);
@@ -308,7 +308,7 @@ header {
     display: block;
 }
 
-/* ============== Testemundas ============== */
+/* ============ SECTION TESTEMUNHAS ============ */
 
 .testemunhas__container {
     overflow-x: hidden;
@@ -356,7 +356,7 @@ header {
     transform: rotate(45deg);
 }
 
-/* ================= FOOTER ====================== */
+/* ================= FOOTER =================== */
 
 footer {
     background: var(--color-bg1);
@@ -400,8 +400,9 @@ footer ul li a:hover {
     border-top: 1px solid var(--color-bg2);
 }
 
-/* =========== MEDIA QUERIES ============== */
-
+/* ================================================ */
+/* ============ MEDIA QUERIES (TABLETS) =========== */
+/* ================================================ */
 @media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md)
@@ -423,7 +424,7 @@ footer ul li a:hover {
         font-size: 1.2rem;
     }
 
-    /* =================== NAVBAR ==================*/
+    /* ============= NAVBAR (TABLETS) ============ */
 
     nav button {
         display: inline-block;
@@ -491,7 +492,7 @@ footer ul li a:hover {
         color: var(--color-white)
     }
 
-    /* ============== HEADER =================== */
+    /* ============== HEADER (TABLETS) ============== */
     header {
         height: 52vh;
         margin-bottom: 3rem;
@@ -515,7 +516,7 @@ footer ul li a:hover {
         margin-right: 0;
     }
 
-    /*CURSOS POPULARES*/
+    /* ========== SECTION CURSOS (TABLETS) ============ */
 
     .cursos {
         margin-top: 0;
@@ -526,7 +527,7 @@ footer ul li a:hover {
     }
 
 
-    /* ============  FAQS =============== */
+    /* ============  SECTION FAQS (TABLETS) =========== */
     .faqs__container {
         grid-template-columns: 1fr;
     }
@@ -535,10 +536,79 @@ footer ul li a:hover {
         padding: 1.5rem;
     }
 
-    /* ============== FOOTER =================*/
+    /* ============== FOOTER (TABLETS) ================ */
 
     .footer__container {
         grid-template-columns: 1fr 1fr;
+    }
+}
+
+    /* ================================================ */
+    /* ============ MEDIA QUERIES (PHONES) ============ */
+    /* ================================================ */
+@media screen and (max-width: 600px) {
+    .container {
+        width: var(--container-width-sm)
+    }
+
+    /* ================= NAVBAR (PHONES) ============== */
+    .nav__menu {
+        right: 3%;
+    }
+
+    /* ================= HEADER (PHONES) ===============*/
+    header {
+        height: 100vh;
+    }
+
+    .header__container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .header__left p{
+        margin-bottom: 1.3rem;
+    }
+
+    /* ========== SECTION CATEGORIAS (PHONES) =========*/
+    .categoria {
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+    .categoria__right {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.7rem;
+    }
+
+    .categoria__icon {
+        margin-top: 4px;
+        display: inline-block;
+    }
+
+    /* ========== SECTION CURSOS (PHONES) ============*/
+    .cursos__container {
+        grid-template-columns: 1fr;
+    }
+
+    /* ======== SECTION TESTEMUNHAS (PHONES) =========*/
+    .testemunhas__body {
+        padding: 1.2rem;
+    }
+
+    /* ================ FOOTER (PHONES) ==============*/
+    .footer__container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .footer__1 p {
+        margin: 1rem auto;
+    }
+
+    .footer__socials {
+        justify-content: center;
     }
 }
 
