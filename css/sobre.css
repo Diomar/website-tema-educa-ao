@@ -1,0 +1,49 @@
+  /* ================================================ */
+  /* ================= CONQUISTAS =================== */
+  /* ================================================ */
+
+  .sobre__conquistas-container {
+      display: grid;
+      grid-template-columns: 40% 60%;
+      gap: 5rem;
+  }
+
+  .sobre__conquistas-right > p {
+      margin: 1.6rem 0 2.5rem;
+  }
+
+  .conquistas__cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+  }
+
+  .conquistas__card {
+      background: var(--color-bg1);
+      padding: 1.6rem;
+      border-radius: 1rem;
+      text-align: center;
+  }
+
+  .conquistas__card:hover {
+      background: var(--color-bg2);
+      box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+  }
+
+  .conquistas__icon {
+      background: var(--color-danger);
+      padding: 0.6rem;
+      border-radius: 1rem;
+      display: inline-block;
+      margin-bottom: 2rem;
+      font-size: 2rem;
+  }
+
+  .conquistas__card:nth-child(2)
+  .conquistas__icon {
+      background: var(--color-primary);
+  }
+
+  .conquistas__card p {
+      margin-top: 1rem;
+  }
