@@ -12,7 +12,7 @@
       margin: 1.6rem 0 2.5rem;
   }
 
-  .conquistas__cards {
+  .conquistas__content {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 1.5rem;
@@ -39,8 +39,11 @@
       font-size: 2rem;
   }
 
-  .conquistas__card:nth-child(2)
-  .conquistas__icon {
+  .conquistas__card:nth-child(2) .conquistas__icon {
+      background: var(--color-sucess);
+  }
+
+  .conquistas__card:nth-child(3) .conquistas__icon {
       background: var(--color-primary);
   }
 
