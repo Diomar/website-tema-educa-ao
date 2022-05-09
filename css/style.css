@@ -314,6 +314,7 @@ header {
     overflow-x: hidden;
     position: relative;
     margin-bottom: 5rem;
+    z-index: 0;
 }
 
 .testemunhas {
