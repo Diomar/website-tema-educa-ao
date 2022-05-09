@@ -1,0 +1,55 @@
+.contatos__container {
+    background: var(--color-bg1);
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 4rem;
+    height: 30rem;
+    margin: 7rem auto;
+    border-radius: 1rem;
+}
+
+/* ================================================ */
+/* ==================== ASIDE ===================== */
+.contatos__aside {
+    background: var(--color-primary);
+    padding: 3rem;
+    border-radius: 1rem;
+    position: relative;
+    bottom: 10rem;
+}
+
+.contatos__aside h2 {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.contatos__aside p {
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+.contatos__detalhes li {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.contatos__sociais {
+    display: flex;
+    gap: 0.8rem;
+    margin-top: 3rem;
+}
+
+.contatos__sociais a {
+    background: var(--color-bg2);
+    padding: 0.5rem;
+    border-radius: 50%;
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+
+.contatos__sociais a:hover {
+    background: transparent;
+}
