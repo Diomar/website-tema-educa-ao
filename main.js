@@ -25,7 +25,7 @@ faqs.forEach(faq => {
 })
 
 
-// Mostrar/ Esconder MENU DROPDOWN
+// Mostrar/ Esconder MENU DROPDOW
 const menu = document.querySelector('.nav__menu');
 const menuBtn = document.querySelector('#open-menu-btn');
 const closeBtn = document.querySelector('#close-menu-btn');

@@ -259,8 +259,8 @@
     <section class="container testemunhas__container mySwiper">
         <h2>Testemunhas</h2>
         <div class="swiper-wrapper">
-            
-                 <article class="testemunhas swiper-slide">
+
+            <article class="testemunhas swiper-slide">
                 <div class="avatar">
                     <img src="./images/avatar1.jpg" alt="">
                 </div>
@@ -380,7 +380,9 @@
     <footer>
         <div class="container footer__container">
             <div class="footer__1">
-                <a href="index.html" class="footer__logo"><h4>Logo</h4></a>
+                <a href="index.html" class="footer__logo">
+                    <h4>Logo</h4>
+                </a>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </div>
 
@@ -411,16 +413,24 @@
 
                 <div class="footer__socials">
                     <li>
-                        <a href="#"><div class="uil uil-facebook-f"></div></a>
+                        <a href="#">
+                            <div class="uil uil-facebook-f"></div>
+                        </a>
                     </li>
                     <li>
-                        <a href="#"><div class="uil uil-instagram-alt"></div></a>
+                        <a href="#">
+                            <div class="uil uil-instagram-alt"></div>
+                        </a>
                     </li>
                     <li>
-                        <a href="#"><div class="uil uil-twitter-alt"></div></a>
+                        <a href="#">
+                            <div class="uil uil-twitter-alt"></div>
+                        </a>
                     </li>
                     <li>
-                        <a href="#"><div class="uil uil-link-alt"></div></a>
+                        <a href="#">
+                            <div class="uil uil-link-alt"></div>
+                        </a>
                     </li>
                 </div>
             </div>
@@ -439,19 +449,19 @@
 
     <script>
         var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        // Quando a largura da tela for >= 600px
-        breakpoints: {
-            600: {
-                slidesPerView: 2
+            slidesPerView: 1,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            // Quando a largura da tela for >= 600px
+            breakpoints: {
+                600: {
+                    slidesPerView: 2
+                }
             }
-        }
-      });
+        });
     </script>
 
 </body>

@@ -9,7 +9,7 @@
 }
 
 .sobre__conquistas-right>p {
-     margin: 1.6rem 0 2.5rem;
+    margin: 1.6rem 0 2.5rem;
 }
 
 .conquistas__content {
@@ -121,10 +121,10 @@
 /* ============= MEDIA QUERIES (TABLETS) ========== */
 /* ================================================ */
 
-@media  screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .sobre__conquistas {
         margin-top: 2rem;
-    } 
+    }
 
     .sobre__conquistas-container {
         grid-template-columns: 1fr;
@@ -150,7 +150,7 @@
 /* ============= MEDIA QUERIES (TABLETS) ========== */
 /* ================================================ */
 
-@media  screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .conquistas__content {
         grid-template-columns: 1fr 1fr;
         gap: 0.7rem;
