@@ -52,8 +52,8 @@
 }
 
 /* ================================================ */
-/* ================== SECTION EQUIPE ================= */
-/* ================================================= */
+/* ================== SECTION EQUIPE ============== */
+/* ================================================ */
 .equipe {
     background: var(--color-bg1);
     box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
@@ -115,4 +115,33 @@
 
 .equipe__membro-social a {
     padding: 1rem;
+}
+
+/* ================================================ */
+/* ============= MEDIA QUERIES (TABLETS) ========== */
+/* ================================================ */
+
+@media  screen and (max-width: 1024px) {
+    .sobre__conquistas {
+        margin-top: 2rem;
+    } 
+
+    .sobre__conquistas-container {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+
+    .sobre__conquistas-left {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .equipe__container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+    .equipe__membro {
+        padding: 1rem;
+    }
 }
