@@ -145,3 +145,27 @@
         padding: 1rem;
     }
 }
+
+/* ================================================ */
+/* ============= MEDIA QUERIES (TABLETS) ========== */
+/* ================================================ */
+
+@media  screen and (max-width: 600px) {
+    .conquistas__content {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.7rem;
+    }
+
+    .equipe__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.7;
+    }
+
+    .equipe__membro {
+        padding: 0;
+    }
+
+    .equipe__membro p {
+        margin-bottom: 1.5rem;
+    }
+}
