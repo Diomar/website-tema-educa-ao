@@ -73,16 +73,68 @@
     width: 50%;
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
     padding: 1rem;
     background: var(--color-bg);
     color: var(--color-white);
     resize: none;
-} 
+}
 
 .contatos__form .btn {
     width: max-content;
     margin-top: 1rem;
     cursor: pointer;
+}
+
+/* ================================================ */
+/* ============ MEDIA QUERIES (TABLETS) =========== */
+@media screen and (max-width: 1024px) {
+    .contatos {
+        padding-bottom: 0;
+    }
+
+    .contatos__container {
+        gap: 1.5rem;
+        margin-top: 3rem;
+        height: auto;
+        padding: 1.5rem;
+    }
+
+    .contatos__aside {
+        width: auto;
+        padding: 1.5rem;
+        bottom: 0;
+    }
+
+    .contatos__form {
+        align-self: center;
+        margin-right: 1.5rem;
+    }
+    
+}
+
+/* ================================================ */
+/* ============ MEDIA QUERIES (PHONES) =========== */
+@media screen and (max-width: 600px) {
+    .contatos__container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .contatos__form {
+        margin: 0 1.5rem 3rem;
+    }
+
+    .form__nome {
+        flex-direction: column;
+    }
+
+    .form__nome input[type="text"] {
+        width: 100%;
+    }
+
 }
