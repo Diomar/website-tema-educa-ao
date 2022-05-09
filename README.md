@@ -1,4 +1,4 @@
-<h1 align="center">Site Institucional com HTML, CSS, JS</h1>
+<h1 align="center">Site Institucional Responsivo com HTML, CSS, JS</h1>
 
 ## [Ver ao vivo](https://website-institucional-exemplo.netlify.app/)
 
