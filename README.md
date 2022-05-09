@@ -1,6 +1,6 @@
 <h1 align="center">Site Institucional com HTML, CSS, JS</h1>
 
-## [Ver ao vivo](https://github.com/Diomar/website-tema-educa-ao)
+## [Ver ao vivo](https://website-institucional-exemplo.netlify.app/)
 
 ## Sobre 
 Treinamento de 3 horas de duração disponibilizado pelo [EGATOR](https://www.youtube.com/channel/UCL8l_VxCAN0jOpaLaRAm8sQ) em seu canal no YouTube. Desde já, agradeço ao mesmo pelo ótimo trabalho!
